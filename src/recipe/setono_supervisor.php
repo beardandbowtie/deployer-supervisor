@@ -7,7 +7,7 @@ namespace Setono\Deployer\Supervisor;
 use function Deployer\after;
 use function Deployer\before;
 
-require_once 'task/setono_supervisor.php';
+require_once __DIR__ . '/../task/setono_supervisor.php';
 
 before('supervisor:upload', 'supervisor:stop');
 before('deploy:symlink', 'supervisor:upload');
