@@ -10,8 +10,8 @@
         }
     ],
     "require": {
-        "php": ">=7.4",
-        "deployer/deployer": "^6.8",
+        "php": ">=8.2",
+        "deployer/deployer": "^7.0",
         "symfony/finder": "^4.4 || ^5.4 || ^6.0",
         "webmozart/assert": "^1.11"
     },
